@@ -4,6 +4,4 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-
-if not BOT_TOKEN:
-    raise ValueError("Токен не найден! Создайте файл .env с BOT_TOKEN=ваш_токен")
+ADMIN_ID = 7878666092  # Ваш ID
